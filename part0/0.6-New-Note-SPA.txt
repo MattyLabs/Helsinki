@@ -1,0 +1,11 @@
+note over browser:
+Pressing Submit posts the form content & date
+pairs to the server
+end note
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: HTTP Status 201 resource created
+
+note over browser:
+browser executes the event handler
+that renders notes to display
+end note
